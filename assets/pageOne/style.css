@@ -4,7 +4,6 @@ body {
 
 #canvas1 {
     position: absolute;
-    border: 3px solid black;
     width: 600px;
     height: 600px;
     transform: translate(-50%, -50%);
@@ -15,7 +14,7 @@ body {
     position: absolute;
     z-index: 10;
     top: 50px;
-    left: 50px;
+    left: 50%;
     transform: translateX(-50%);
 }
 .controls, select, option {
