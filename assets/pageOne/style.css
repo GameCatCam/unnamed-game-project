@@ -11,3 +11,13 @@ body {
     top: 50%;
     left: 50%;
 }
+.controls {
+    position: absolute;
+    z-index: 10;
+    top: 50px;
+    left: 50px;
+    transform: translateX(-50%);
+}
+.controls, select, option {
+    font-size: 18px;
+}
